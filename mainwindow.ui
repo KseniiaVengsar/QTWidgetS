@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>421</width>
+    <height>262</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>35</y>
+      <width>381</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="push_Butt">
+       <property name="text">
+        <string>BUTTON</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QProgressBar" name="pr_Bar">
+       <property name="value">
+        <number>24</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QGroupBox" name="gr_Box">
+       <property name="title">
+        <string>RadioButts</string>
+       </property>
+       <widget class="QRadioButton" name="rad_Butt">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>89</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ON</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="rad_Butt_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>70</y>
+          <width>89</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>OFF</string>
+        </property>
+       </widget>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QComboBox" name="co_Box"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>421</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
